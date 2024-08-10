@@ -1,0 +1,30 @@
+// Default Button Mixins
+@mixin btn($bg: $primary) {
+    font-size: $font-size-small;
+    color: $text-color;
+    background: $bg;
+    padding: $padding $padding-double;
+    border-radius: $border-radius-half;
+}
+
+.btn {
+    @include btn;
+}
+
+// Generate Buttons Based On Colors
+@each $key, $value in $colors {
+    .btn-#{$key} {
+        @include btn($value);
+        &:hover {
+            background: lighten($value, 25);
+        }
+    }
+
+    .btn-outlined-#{$key} {
+        @include btn(transparent);
+        border: $border-thickness solid $value;
+        &:hover {
+            background: $value;
+        }
+    }
+}

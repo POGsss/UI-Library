@@ -1,0 +1,42 @@
+// Card Styling
+@mixin card() {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: $padding-double;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    background: $primary-background-color;
+
+    .card-title {
+        font-size: $font-size-medium;
+        margin-bottom: $margin;
+    }
+
+    .card-content {
+        font-size: $font-size-small;
+    }
+
+    .card-badge {
+        position: absolute;
+        top: $padding-double;
+        right: $padding-double;
+        display: inline-block;
+        font-size: $font-size-xsmall;
+        padding: $padding-half $padding;
+        border-radius: $border-radius-half;
+        background: $secondary-background-color;
+    }
+
+    .card-button {
+        @include btn();
+        margin-top: $margin-double;
+    }
+}
+
+// Card Class
+.card {
+    @include card;
+}

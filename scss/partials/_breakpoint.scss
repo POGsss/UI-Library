@@ -1,0 +1,39 @@
+// Screen Sizes Breakpoint
+$breakpoint: (
+    "xs": 0,
+    "sm": 480px,
+    "md": 720px,
+    "lg": 960px,
+    "xl": 1200px
+);
+
+// Mixin For Each Breakpoint Sizes
+@mixin xs {
+    @media (min-width: map-get($breakpoint, "xs")) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media (min-width: map-get($breakpoint, "sm")) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (min-width: map-get($breakpoint, "md")) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: map-get($breakpoint, "lg")) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: map-get($breakpoint, "xl")) {
+        @content;
+    }
+}

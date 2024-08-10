@@ -1,0 +1,48 @@
+// Package
+@use "sass:math";
+
+// Theme Color
+$primary: #3c40c6 !default;
+$secondary: #05c46b !default;
+$text-color: #ffffff !default;
+$primary-background-color: #1e272e !default;
+$secondary-background-color: #485460 !default;
+
+// Color Palette
+$colors: (
+    "blue": #3c40c6,
+    "aqua": #00d8d6,
+    "pink": #f53b57,
+    "red": #ff3f34,
+    "orange": #ffa801,
+    "yellow": #ffd32a,
+    "green": #05c46b,
+    "black": #000000,
+    "white": #ffffff
+);
+
+// Sizes
+$padding: 10px !default;
+$padding-double: $padding * 2 !default;
+$padding-half: math.div($padding, 2) !default;
+$margin: 10px !default;
+$margin-double: $margin * 2 !default;
+$margin-half: math.div($margin, 2) !default;
+
+// Border
+$border-radius: 10px !default;
+$border-thickness: 1px !default;
+$border: $border-thickness solid $primary !default;
+$border-radius-half: math.div($border-radius, 2) !default;
+
+// Box Shadow
+$box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+// Fonts
+$font: Poppins !default;
+$font-size-xsmall: 10px !default;
+$font-size-small: 15px !default;
+$font-size-medium: 20px !default;
+$font-size-large: 30px !default;
+$font-size-xlarge: 40px !default;
+$font-size-xxlarge: 50px !default;

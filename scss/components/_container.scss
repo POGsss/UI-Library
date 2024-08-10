@@ -1,0 +1,15 @@
+// Container Styling
+.section-container {
+    background: $secondary-background-color;
+    padding: $padding-double;
+    border-radius: $border-radius;
+
+    .section-title {
+        font-size: $font-size-large;
+        color: $text-color;
+    }
+
+    .section-sub-title {
+        font-size: $font-size-medium;
+    }
+}

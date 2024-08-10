@@ -1,0 +1,32 @@
+// Generate Text And BG Class Based On Colors
+@each $key, $value in $colors {
+    .text-#{$key} {
+        color: $value;
+    }
+    .bg-#{$key} {
+        color: $text-color;
+        background: $value;
+    }
+
+    // Generate Light And Dark Variations
+    @if ($key != "black" and $key != "white") {
+        @for $i from 1 through 9 {
+            .text-#{$key}-light-#{$i} {
+                color: mix(white, $value, $i * 10%);
+            }
+            .bg-#{$key}-light-#{$i} {
+                color: $text-color;
+                background: mix(white, $value, $i * 10%);
+            }
+        }
+        @for $i from 1 through 9 {
+            .text-#{$key}-dark-#{$i} {
+                color: mix(black, $value, $i * 10%);
+            }
+            .bg-#{$key}-dark-#{$i} {
+                color: $text-color;
+                background: mix(black, $value, $i * 10%);
+            }
+        }
+    }
+}
