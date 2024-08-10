@@ -3,6 +3,11 @@
     .text-#{$key} {
         color: $value;
     }
+    .text-hover-#{$key} {
+        &:hover {
+            color: $value;
+        }
+    }
     .bg-#{$key} {
         color: $text-color;
         background: $value;

@@ -1,0 +1,32 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    padding: $padding-double;
+    background: $secondary-background-color;
+    box-shadow: $box-shadow;
+    z-index: 9;
+
+    .navbar {
+        width: 100%;
+        max-width: map-get($breakpoint, "xl");
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+
+            li {
+                padding-right: $padding;
+            }
+        }
+    }
+}

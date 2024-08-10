@@ -15,6 +15,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     width: 100%;
     max-width: map-get($breakpoint, "xl");
     margin: 0 auto;
+    padding: $padding-double;
     box-sizing: border-box;
 }
 .grid-row {

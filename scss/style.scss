@@ -9,6 +9,7 @@
 @import "partials/colors";
 
 // Components
+@import "components/navbar";
 @import "components/container";
 @import "components/button";
 @import "components/card";
@@ -23,7 +24,7 @@
 body {
     font-family: Poppins;
     background: $primary-background-color;
-    padding: $padding-double;
+    padding-top: 75px;
 }
 
 ul {
