@@ -10,20 +10,31 @@
   <body>
     <nav class="navbar-container">
       <div class="navbar">
-        <h1 class="text-white font-lg">Logo</h1>
+        <h1 class="text-white font-lg">Nav</h1>
         <ul>
-          <li class="text-white text-hover-green font-sm">Color</li>
-          <li class="text-white text-hover-green font-sm">Button</li>
-          <li class="text-white text-hover-green font-sm">Font</li>
-          <li class="text-white text-hover-green font-sm">Card</li>
-          <li class="text-white text-hover-green font-sm">Grid</li>
+          <li class="ml-1 text-white text-hover-green font-sm">
+            <a href="#Color">Color</a>
+          </li>
+          <li class="ml-1 text-white text-hover-green font-sm">
+            <a href="#Button">Button</a>
+          </li>
+          <li class="ml-1 text-white text-hover-green font-sm">
+            <a href="#Font">Font</a>
+          </li>
+          <li class="ml-1 text-white text-hover-green font-sm">
+            <a href="#Card">Card</a>
+          </li>
+          <li class="ml-1 text-white text-hover-green font-sm">
+            <a href="#Grid">Grid</a>
+          </li>
         </ul>
       </div>
     </nav>
     <div class="grid-container">
-      <div class="section-container mb-1">
+      <div class="section-container mb-2">
+        <div id="Color" class="section-anchor"></div>
         <h1 class="section-title">Colors</h1>
-        <hr class="mt-1 mb-1 o-50" />
+        <hr class="mt-2 mb-2 o-50" />
 
         <h2 class="section-sub-title text-white o-50">Text Colors</h2>
         <span class="text-green font-sm">text color</span>
@@ -34,7 +45,7 @@
         <span class="text-yellow font-sm">text color</span>
         <span class="text-green font-sm">text color</span>
 
-        <h2 class="section-sub-title text-white o-50 mt-1">
+        <h2 class="section-sub-title text-white o-50 mt-2">
           Background Colors
         </h2>
         <span class="bg-blue font-sm">background</span>
@@ -45,7 +56,7 @@
         <span class="bg-yellow font-sm">background</span>
         <span class="bg-green font-sm">background</span>
 
-        <h2 class="section-sub-title text-white o-50 mt-1">
+        <h2 class="section-sub-title text-white o-50 mt-2">
           Dark Color Variants
         </h2>
         <span class="bg-blue-dark-1 font-sm">dark 1</span>
@@ -56,7 +67,7 @@
         <span class="bg-blue-dark-6 font-sm">dark 6</span>
         <span class="bg-blue-dark-7 font-sm">dark 7</span>
 
-        <h2 class="section-sub-title text-white o-50 mt-1">
+        <h2 class="section-sub-title text-white o-50 mt-2">
           Light Color Variants
         </h2>
         <span class="bg-blue-light-1 font-sm">light 1</span>
@@ -68,9 +79,10 @@
         <span class="bg-blue-light-7 font-sm">light 7</span>
       </div>
 
-      <div class="section-container mb-1">
+      <div class="section-container mb-2">
+        <div id="Button" class="section-anchor"></div>
         <h1 class="section-title">Buttons</h1>
-        <hr class="mt-1 mb-1 o-50" />
+        <hr class="mt-2 mb-2 o-50" />
 
         <h2 class="section-sub-title text-white o-50">Solid Buttons</h2>
         <button class="btn-blue font-sm">click me</button>
@@ -81,7 +93,7 @@
         <button class="btn-yellow font-sm">click me</button>
         <button class="btn-green font-sm">click me</button>
 
-        <h2 class="section-sub-title text-white o-50 mt-1">Outlined Buttons</h2>
+        <h2 class="section-sub-title text-white o-50 mt-2">Outlined Buttons</h2>
         <button class="btn-outlined-blue font-sm">click me</button>
         <button class="btn-outlined-aqua font-sm">click me</button>
         <button class="btn-outlined-pink font-sm">click me</button>
@@ -91,9 +103,10 @@
         <button class="btn-outlined-green font-sm">click me</button>
       </div>
 
-      <div class="section-container mb-1">
+      <div class="section-container mb-2">
+        <div id="Font" class="section-anchor"></div>
         <h1 class="section-title">Font Size</h1>
-        <hr class="mt-1 mb-1 o-50" />
+        <hr class="mt-2 mb-2 o-50" />
 
         <div class="font-xs text-white">This is x-small font</div>
         <div class="font-sm text-white">This is small font</div>
@@ -103,9 +116,10 @@
         <div class="font-xxl text-white">This is xx-large font</div>
       </div>
 
-      <div class="section-container mb-1">
+      <div class="section-container mb-2">
+        <div id="Card" class="section-anchor"></div>
         <h1 class="section-title">Cards</h1>
-        <hr class="mt-1 mb-1 o-50" />
+        <hr class="mt-2 mb-2 o-50" />
 
         <h2 class="section-sub-title text-white o-50">Basic Card</h2>
         <div class="card">
@@ -118,7 +132,7 @@
           </p>
         </div>
 
-        <h2 class="section-sub-title text-white o-50 mt-1">With Badge</h2>
+        <h2 class="section-sub-title text-white o-50 mt-2">With Badge</h2>
         <div class="card">
           <span class="card-badge text-white">badge</span>
           <h1 class="card-title text-white">title</h1>
@@ -130,7 +144,7 @@
           </p>
         </div>
 
-        <h2 class="section-sub-title text-white o-50 mt-1">With Button</h2>
+        <h2 class="section-sub-title text-white o-50 mt-2">With Button</h2>
         <div class="card">
           <h1 class="card-title text-white">title</h1>
           <p class="card-content text-white">
@@ -144,62 +158,61 @@
       </div>
 
       <div class="section-container">
+        <div id="Grid" class="section-anchor"></div>
         <h1 class="section-title">Grid System</h1>
-        <hr class="mt-1 mb-1 o-50" />
+        <hr class="mt-2 mb-2 o-50" />
 
-        <div class="grid-container">
-          <div class="grid-row grid-gap-1">
-            <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
-              <div class="card">
-                <span class="card-badge text-white">badge</span>
-                <h1 class="card-title text-white">title</h1>
-                <p class="card-content text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  expedita architecto, natus consequatur quisquam quas eum
-                  quibusdam facilis error exercitationem est omnis quae repellat
-                  vero fugiat! Iste dolorum deserunt iure.
-                </p>
-                <button class="card-button font-sm">Button</button>
-              </div>
+        <div class="grid-row grid-gap-1 justify-center">
+          <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
+            <div class="card">
+              <span class="card-badge text-white">badge</span>
+              <h1 class="card-title text-white">title</h1>
+              <p class="card-content text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                expedita architecto, natus consequatur quisquam quas eum
+                quibusdam facilis error exercitationem est omnis quae repellat
+                vero fugiat! Iste dolorum deserunt iure.
+              </p>
+              <button class="card-button font-sm">Button</button>
             </div>
-            <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
-              <div class="card">
-                <span class="card-badge text-white">badge</span>
-                <h1 class="card-title text-white">title</h1>
-                <p class="card-content text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  expedita architecto, natus consequatur quisquam quas eum
-                  quibusdam facilis error exercitationem est omnis quae repellat
-                  vero fugiat! Iste dolorum deserunt iure.
-                </p>
-                <button class="card-button font-sm">Button</button>
-              </div>
+          </div>
+          <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
+            <div class="card">
+              <span class="card-badge text-white">badge</span>
+              <h1 class="card-title text-white">title</h1>
+              <p class="card-content text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                expedita architecto, natus consequatur quisquam quas eum
+                quibusdam facilis error exercitationem est omnis quae repellat
+                vero fugiat! Iste dolorum deserunt iure.
+              </p>
+              <button class="card-button font-sm">Button</button>
             </div>
-            <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
-              <div class="card">
-                <span class="card-badge text-white">badge</span>
-                <h1 class="card-title text-white">title</h1>
-                <p class="card-content text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  expedita architecto, natus consequatur quisquam quas eum
-                  quibusdam facilis error exercitationem est omnis quae repellat
-                  vero fugiat! Iste dolorum deserunt iure.
-                </p>
-                <button class="card-button font-sm">Button</button>
-              </div>
+          </div>
+          <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
+            <div class="card">
+              <span class="card-badge text-white">badge</span>
+              <h1 class="card-title text-white">title</h1>
+              <p class="card-content text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                expedita architecto, natus consequatur quisquam quas eum
+                quibusdam facilis error exercitationem est omnis quae repellat
+                vero fugiat! Iste dolorum deserunt iure.
+              </p>
+              <button class="card-button font-sm">Button</button>
             </div>
-            <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
-              <div class="card">
-                <span class="card-badge text-white">badge</span>
-                <h1 class="card-title text-white">title</h1>
-                <p class="card-content text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  expedita architecto, natus consequatur quisquam quas eum
-                  quibusdam facilis error exercitationem est omnis quae repellat
-                  vero fugiat! Iste dolorum deserunt iure.
-                </p>
-                <button class="card-button font-sm">Button</button>
-              </div>
+          </div>
+          <div class="grid-col-12-sm grid-col-6-md grid-col-3-lg">
+            <div class="card">
+              <span class="card-badge text-white">badge</span>
+              <h1 class="card-title text-white">title</h1>
+              <p class="card-content text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                expedita architecto, natus consequatur quisquam quas eum
+                quibusdam facilis error exercitationem est omnis quae repellat
+                vero fugiat! Iste dolorum deserunt iure.
+              </p>
+              <button class="card-button font-sm">Button</button>
             </div>
           </div>
         </div>

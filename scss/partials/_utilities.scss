@@ -7,84 +7,90 @@ $utilities: (
         "prefix": "p",
         "values": (
             "0": 0,
-            "1": $padding-double,
-            "2": $padding-double * 2,
+            "1": $padding,
+            "2": $padding-double,
+            "3": $padding-double * 2,
         )
     ),
     "padding-top": (
         "prefix": "pt",
         "values": (
             "0": 0,
-            "1": $padding-double,
-            "2": $padding-double * 2,
+            "1": $padding,
+            "2": $padding-double,
+            "3": $padding-double * 2,
         )
     ),
     "padding-bottom": (
         "prefix": "pb",
         "values": (
             "0": 0,
-            "1": $padding-double,
-            "2": $padding-double * 2,
+            "1": $padding,
+            "2": $padding-double,
+            "3": $padding-double * 2,
         )
     ),
     "padding-left": (
         "prefix": "pl",
         "values": (
             "0": 0,
-            "1": $padding-double,
-            "2": $padding-double * 2,
+            "1": $padding,
+            "2": $padding-double,
+            "3": $padding-double * 2,
         )
     ),
     "padding-right": (
         "prefix": "pr",
         "values": (
             "0": 0,
-            "1": $padding-double,
-            "2": $padding-double * 2,
+            "1": $padding,
+            "2": $padding-double,
+            "3": $padding-double * 2,
         )
     ),
     "margin": (
         "prefix": "m",
         "values": (
             "0": 0,
-            "1": $padding-double,
-            "2": $padding-double * 2,
+            "1": $margin,
+            "2": $margin-double,
+            "3": $margin-double * 2,
         )
     ),
     "margin-top": (
         "prefix": "mt",
         "values": (
             "0": 0,
-            "1": $margin-double,
-            "2": $margin-double * 2,
-            "3": $margin-double * 4,
+            "1": $margin,
+            "2": $margin-double,
+            "3": $margin-double * 2,
         )
     ),
     "margin-bottom": (
         "prefix": "mb",
         "values": (
             "0": 0,
-            "1": $margin-double,
-            "2": $margin-double * 2,
-            "3": $margin-double * 4,
+            "1": $margin,
+            "2": $margin-double,
+            "3": $margin-double * 2,
         )
     ),
     "margin-left": (
         "prefix": "ml",
         "values": (
             "0": 0,
-            "1": $margin-double,
-            "2": $margin-double * 2,
-            "3": $margin-double * 4,
+            "1": $margin,
+            "2": $margin-double,
+            "3": $margin-double * 2,
         )
     ),
     "margin-right": (
         "prefix": "mr",
         "values": (
             "0": 0,
-            "1": $margin-double,
-            "2": $margin-double * 2,
-            "3": $margin-double * 4,
+            "1": $margin,
+            "2": $margin-double,
+            "3": $margin-double * 2,
         )
     ),
     "opacity": (

@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.mt-1 {
+.mt-2 {
   margin-top: 20px;
 }
 
-.mb-1 {
+.mb-2 {
   margin-bottom: 20px;
+}
+
+.ml-1 {
+  margin-left: 10px;
 }
 
 .o-50 {
@@ -56,6 +60,10 @@
 .grid-gap-1 {
   margin-left: -10px;
   margin-right: -10px;
+}
+
+.justify-center {
+  justify-content: center;
 }
 @media (min-width: 480px) {
   .grid-col-12-sm {
@@ -242,14 +250,16 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
-.navbar-container .navbar ul li {
-  padding-right: 10px;
-}
 
 .section-container {
+  position: relative;
   background: #485460;
   padding: 20px;
   border-radius: 10px;
+}
+.section-container .section-anchor {
+  position: absolute;
+  top: -95px;
 }
 .section-container .section-title {
   font-size: 30px;
@@ -463,6 +473,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Poppins;
   background: #1e272e;
@@ -472,6 +486,12 @@ body {
 ul {
   padding: 0;
   list-style-type: none;
+}
+
+a {
+  all: inherit;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 button {

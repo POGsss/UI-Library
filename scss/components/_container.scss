@@ -1,8 +1,14 @@
 // Container Styling
 .section-container {
+    position: relative;
     background: $secondary-background-color;
     padding: $padding-double;
     border-radius: $border-radius;
+
+    .section-anchor {
+        position: absolute;
+        top: -($nav-height + $padding-double);
+    }
 
     .section-title {
         font-size: $font-size-large;

@@ -21,6 +21,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Poppins;
     background: $primary-background-color;
@@ -33,6 +37,7 @@ ul {
 }
 
 a {
+    all: inherit;
     cursor: pointer;
     text-decoration: none;
 }

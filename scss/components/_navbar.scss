@@ -1,3 +1,4 @@
+// Basic Navbar Styling
 .navbar-container {
     position: fixed;
     top: 0;
@@ -5,7 +6,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 75px;
+    height: $nav-height;
     padding: $padding-double;
     background: $secondary-background-color;
     box-shadow: $box-shadow;
@@ -23,10 +24,6 @@
             display: flex;
             flex-flow: row wrap;
             justify-content: space-around;
-
-            li {
-                padding-right: $padding;
-            }
         }
     }
 }
